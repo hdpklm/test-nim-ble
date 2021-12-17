@@ -1,0 +1,7 @@
+{
+	"board": "esp32:esp32:esp32",
+	"port": "COM4",
+	"sketch": "main.ino",
+	"output": "build",
+	"configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=2M,UploadSpeed=921600,DebugLevel=verbose"
+}

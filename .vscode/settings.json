@@ -1,0 +1,10 @@
+{
+	"files.associations": {
+		"*.jsx": "javascriptreact",
+		"*.tcc": "cpp",
+		"arduino.h": "c",
+		"inttypes.h": "c",
+		"twi.h": "c",
+		"cmath": "cpp"
+	}
+}

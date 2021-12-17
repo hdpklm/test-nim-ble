@@ -1,0 +1,11 @@
+create a cordova application for android
+add plugin https://github.com/don/cordova-plugin-ble-central
+add android/ble-central.js code to your html page
+build and run code in android
+
+
+// scan in browser (inspect element mode, google chrome)
+blecen.scan(["1233"], console.log)
+
+blecen.connect("[address]" ,console.log)
+blecen.subscribe("[address]" , "1233", "0003", console.log, true)
